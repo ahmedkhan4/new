@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+---Dark-Blue : hsl(209, 23%, 22%) (Dark Mode Elements)
+--Very-Dark-Blue : hsl(207, 26%, 17%) (Dark Mode Background)
+--Very-Dark-Blue : hsl(200, 15%, 8%) (Light Mode Text)
+--Dark-Gray : hsl(0, 0%, 52%) (Light Mode Input)
+--Very-Light-Gray : hsl(0, 0%, 98%) (Light Mode Background)
+--White : hsl(0, 0%, 100%) (Dark Mode Text & Light Mode Elements)
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ............... Glooble tags ................ */
+h1{
+  font-size: 22px!important;
+  color: rgb(39, 39, 39);
+  font-weight: 700 !important;
+}
+.homeText h2{
+  font-size: 18px !important;
+  color: rgb(36, 36, 36);
+  font-weight: 800 !important;
+  padding: 30px 0px 15px 20px !important;
+
+
+}
+.homeText h3, .homeText h4, .homeText h5{
+  font-size: 12px !important;
+  color: rgb(39, 39, 39);
+
+}
+.homeText span{
+font-size: 16px!important;
+color: rgb(19, 19, 19);
+}
+a{
+  text-decoration: none !important;
+}
+/* .................. navbar ...................... */
+.navbar{
+  background-color:hsl(0, 0%, 100%) !important;
+  box-shadow: 0px 4px 6px rgb(240, 240, 240);
+}
+.moonLight{
+  display: flex;
+  align-items: center;
+}
+.moonLightBtn{
+  background-color: unset!important;
+  border: none!important;
+  color: black !important;
+  font-weight: 500 !important;
+
+}
+/* ............... theme  ...................... */
+.light-theme{
+ background-color: hsl(0, 0%, 98%) ;
+ 
+}
+.dark-theme{
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+}
+ /* ....................... Home .................... */
+ .HomeSection{
+  background-color: hsl(0, 0%, 98%) !important;
+ }
+ .searchDrop{
+  padding: 3rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .home{
+  margin: 1.6rem 0 0 0 !important;
+ }
+ .homeText{
+ box-shadow: 3px 5px 10px rgb(228, 228, 228)!important;
+
+ }
+ .tagsText{
+  padding: 0px 0px 30px 20px !important
+
+ }
+ .homeText img{
+  width: 100%;
+  height: 150px;
+ }
+ .form-control{
+  width: 370px !important;
+  border: none !important;
+ border-radius: none !important;
+ padding: .9rem !important;
+ outline: none!important;
+ box-shadow: 3px 5px 10px rgb(228, 228, 228)!important;
+ font-size: 13px !important;
+ }
+ 
+ .dropdown-toggle{
+  background-color: hsl(0, 0%, 100%) !important;
+  border: none !important;
+  color: black !important;
+ padding: .9rem !important;
+ box-shadow: 3px 5px 10px rgb(228, 228, 228)!important;
+ font-size: 15px !important;
+ }
+
+ /* .............. detailPage .................. */
+ .detailPage{
+  margin: 3rem 0 0 0;
+ }
+ .detailPageText{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+
+ }
+ .backBtn{
+  background-color: hsl(0, 0%, 100%) !important;
+  border: none !important;
+  color: rgb(34, 34, 34) !important;
+ padding: .7rem !important;
+ box-shadow: 3px 5px 10px rgb(224, 224, 224)!important;
+ font-size: 13px !important;
+ width: 120px;
+ }

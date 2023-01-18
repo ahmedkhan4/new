@@ -64,7 +64,16 @@ a{
 /* ............... theme  ...................... */
 .light-theme{
  background-color: hsl(0, 0%, 98%) ;
+ color: red;
  
+}
+.white-theme{
+  color: black;
+  background-color: white;
+}
+.black-theme{
+  color: white;
+  background-color: balck;
 }
 .dark-theme{
   background-color: hsl(207, 26%, 17%);
@@ -132,4 +141,14 @@ a{
  box-shadow: 3px 5px 10px rgb(224, 224, 224)!important;
  font-size: 13px !important;
  width: 120px;
+ }
+ .white-theme{
+  background-color: white;
+  color: black;
+  font-size: 24px;
+ }
+ .black-theme{
+  background-color: black;
+  color: white;
+  font-size: 24px;
  }
